@@ -24,6 +24,4 @@ my @vals=unpack("C4",$dev->transfer(pack("C4",@buffer)));
 print(Dumper(\@buffer));
 print(Dumper(\@vals));
 
-
-
-
+1;

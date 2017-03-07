@@ -203,7 +203,7 @@ sub gps_thread()
         }
         else
         {
-            print($fields[0]." not decoded ...\n");
+##			print($fields[0]." not decoded ...\n");
         }
     }
 
